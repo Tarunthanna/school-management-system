@@ -1,0 +1,9 @@
+@echo off
+echo Starting School Management System...
+echo.
+echo 1. Setting up database...
+node setup-database.js
+echo.
+echo 2. Starting development server...
+npm run dev
+pause
